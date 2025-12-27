@@ -11,7 +11,7 @@ export default function PrivacyPolicyPage() {
           ← Torna alla Home
         </Link>
 
-        <h1 className="text-3xl sm:text-4xl font-bold text-neutral-900 mb-4">
+        <h1 className="text-3xl sm:text-4xl font-bold text-[#fe6f41] mb-4">
           Informativa sulla Privacy
         </h1>
         <p className="mb-6 text-sm text-neutral-500">
@@ -24,7 +24,7 @@ export default function PrivacyPolicyPage() {
           Utilizzando l’app, accetti le pratiche qui descritte.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-2">
+        <h2 className="text-2xl font-semibold mt-10 mb-2 text-[#fe6f41]">
           1. Raccolta dei Dati
         </h2>
         <p className="mb-6">
@@ -34,7 +34,7 @@ export default function PrivacyPolicyPage() {
           utilizzati esclusivamente per il funzionamento dell’applicazione.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-2">
+        <h2 className="text-2xl font-semibold mt-10 mb-2 text-[#fe6f41]">
           2. Servizi Utilizzati
         </h2>
         <p className="mb-6">
@@ -75,7 +75,7 @@ export default function PrivacyPolicyPage() {
           </li>
         </ul>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-2">
+        <h2 className="text-2xl font-semibold mt-10 mb-2 text-[#fe6f41]">
           3. Pubblicità e Analisi
         </h2>
         <p className="mb-6">
@@ -85,7 +85,7 @@ export default function PrivacyPolicyPage() {
           il comportamento degli utenti.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-2">
+        <h2 className="text-2xl font-semibold mt-10 mb-2 text-[#fe6f41]">
           4. Dati Conservati
         </h2>
         <p className="mb-6">
@@ -102,7 +102,7 @@ export default function PrivacyPolicyPage() {
           funzionamento dell’app e non vengono utilizzate per altri scopi.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-2">
+        <h2 className="text-2xl font-semibold mt-10 mb-2 text-[#fe6f41]">
           5. Eliminazione dei Dati e dell’Account
         </h2>
         <p className="mb-6">
@@ -114,7 +114,7 @@ export default function PrivacyPolicyPage() {
           sul dispositivo.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-2">
+        <h2 className="text-2xl font-semibold mt-10 mb-2 text-[#fe6f41]">
           6. Conservazione dei Dati
         </h2>
         <p className="mb-6">
@@ -123,7 +123,7 @@ export default function PrivacyPolicyPage() {
           dai server. SushiCounter non conserva copie o backup esterni.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-2">
+        <h2 className="text-2xl font-semibold mt-10 mb-2 text-[#fe6f41]">
           7. Condivisione dei Dati
         </h2>
         <p className="mb-6">
@@ -131,7 +131,7 @@ export default function PrivacyPolicyPage() {
           alcun motivo. Non vengono trasmessi dati a fini di marketing o pubblicità.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-2">8. Sicurezza</h2>
+        <h2 className="text-2xl font-semibold mt-10 mb-2 text-[#fe6f41]">8. Sicurezza</h2>
         <p className="mb-6">
           SushiCounter si avvale di <strong>Firebase Security</strong> e di protocolli
           di sicurezza avanzati per proteggere i dati memorizzati. Tutte le connessioni
@@ -139,7 +139,7 @@ export default function PrivacyPolicyPage() {
           pratiche di sicurezza di Google e RevenueCat.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-2">
+        <h2 className="text-2xl font-semibold mt-10 mb-2 text-[#fe6f41]">
           9. Minori
         </h2>
         <p className="mb-6">
@@ -147,7 +147,7 @@ export default function PrivacyPolicyPage() {
           intenzionalmente alcun dato personale da minori.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-2">
+        <h2 className="text-2xl font-semibold mt-10 mb-2 text-[#fe6f41]">
           10. Modifiche a Questa Informativa
         </h2>
         <p className="mb-6">
@@ -156,7 +156,7 @@ export default function PrivacyPolicyPage() {
           significativi, verrà mostrata una notifica direttamente in-app.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-2">
+        <h2 className="text-2xl font-semibold mt-10 mb-2 text-[#fe6f41]">
           11. Contatti
         </h2>
         <p className="mb-6">
