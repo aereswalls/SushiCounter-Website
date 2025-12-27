@@ -8,98 +8,133 @@ export default function FAQPage() {
       <main className="w-full max-w-3xl">
         <div className="flex justify-end mb-6 space-x-4">
           <Link href="/faq" className="text-sm text-neutral-500 hover:underline">EN 🇬🇧</Link>
-          <Link href="/it/faq" className="text-sm text-neutral-500 hover:underline">IT 🇮🇹</Link>
+          <Link href="/it/faq" className="text-sm text-neutral-500 hover:underline font-bold">IT 🇮🇹</Link>
           <Link href="/fr/faq" className="text-sm text-neutral-500 hover:underline">FR 🇫🇷</Link>
           <Link href="/es/faq" className="text-sm text-neutral-500 hover:underline">ES 🇪🇸</Link>
           <Link href="/de/faq" className="text-sm text-neutral-500 hover:underline">DE 🇩🇪</Link>
         </div>
 
         <h1 className="text-3xl sm:text-4xl font-bold mb-4">Domande Frequenti (FAQ)</h1>
-        <p className="text-sm text-neutral-500 mb-10">Ultimo aggiornamento: 14 luglio 2025</p>
+        <p className="text-sm text-neutral-500 mb-10">Ultimo aggiornamento: 27 dicembre 2025</p>
 
         <section className="space-y-8 text-sm sm:text-base leading-relaxed">
           <div>
-            <h2 className="text-xl font-semibold mb-2">Cos’è GarTrack?</h2>
+            <h2 className="text-xl font-semibold mb-2">Cos'è SushiCounter?</h2>
             <p>
-              GarTrack è un'app mobile pensata per aiutarti a gestire tutti gli aspetti dei tuoi veicoli, inclusi rifornimenti, manutenzioni, spese, documenti, checklist e promemoria, tutto in un unico posto.
+              SushiCounter è l'app definitiva per le sfide all you can eat! Crea sessioni con amici, conta i pezzi in tempo reale e scopri chi è il vero campione di sushi.
             </p>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-2">Cos’è GarTrack PRO?</h2>
+            <h2 className="text-xl font-semibold mb-2">Come funzionano le sessioni?</h2>
             <p>
-              GarTrack PRO è un aggiornamento premium che sblocca funzionalità aggiuntive come la gestione illimitata dei veicoli (gli utenti free sono limitati a uno), backup e ripristino su iCloud, e un’esperienza senza pubblicità.
+              Crea una nuova sessione o unisciti con un codice. Durante il pasto, ogni partecipante conta i propri pezzi. La classifica si aggiorna in tempo reale per tutti!
             </p>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-2">Come vengono gestiti i miei dati personali e i documenti caricati?</h2>
+            <h2 className="text-xl font-semibold mb-2">Cosa include la versione gratuita?</h2>
             <p>
-              Tutti i dati inseriti o caricati (inclusi documenti, foto e note) sono salvati localmente sul tuo dispositivo. Se sei un utente PRO e abiliti il backup iCloud, questi dati vengono archiviati in modo sicuro nel tuo account iCloud personale. Noi di GarTrack non accediamo, memorizziamo o elaboriamo i tuoi dati sui nostri server. La tua privacy e la sicurezza dei tuoi dati sono la nostra priorità.
+              Puoi creare sessioni fino a 2 partecipanti, tenere traccia dei tuoi record personali e visualizzare lo storico delle tue sfide.
             </p>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-2">Accedete o vendete i miei dati?</h2>
+            <h2 className="text-xl font-semibold mb-2">Cosa offre SushiCounter Premium?</h2>
             <p>
-              No. Non accediamo, vendiamo o condividiamo i tuoi dati. Qualsiasi dato salvato su iCloud rimane sotto il tuo controllo ed è protetto dalle misure di sicurezza e privacy di Apple. Non monetizziamo i dati degli utenti.
+              Con Premium sblocchi sessioni fino a 20 partecipanti, perfetto per grandi gruppi e feste. Ideale per sfide epiche!
             </p>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-2">Come funziona il backup iCloud?</h2>
+            <h2 className="text-xl font-semibold mb-2">Come funziona il codice sessione?</h2>
             <p>
-              Per gli utenti PRO, il backup iCloud salva in modo sicuro i tuoi dati GarTrack, inclusi veicoli, rifornimenti, manutenzioni, spese, documenti e promemoria. Il ripristino da iCloud è possibile solo su dispositivi collegati allo stesso ID Apple.
+              Quando crei una sessione, ricevi un codice alfanumerico univoco di 6 caratteri. Condividilo con gli amici che potranno unirsi istantaneamente.
             </p>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-2">Perché vedo annunci nell'app?</h2>
+            <h2 className="text-xl font-semibold mb-2">Posso modificare il conteggio se sbaglio?</h2>
             <p>
-              Gli utenti free vedono annunci forniti da Google AdMob. Questi annunci aiutano a supportare lo sviluppo e la manutenzione di GarTrack. Puoi rimuovere gli annunci in qualsiasi momento passando a GarTrack PRO.
+              Sì! Usa il pulsante 'Annulla' per decrementare il conteggio in caso di errore. Puoi correggere in qualsiasi momento durante la sessione.
             </p>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-2">Quali metodi di pagamento sono accettati per GarTrack PRO?</h2>
+            <h2 className="text-xl font-semibold mb-2">Cosa succede se termino una sessione?</h2>
             <p>
-              I pagamenti per PRO sono gestiti tramite l’App Store di Apple. Non raccogliamo né memorizziamo i dettagli di pagamento. Puoi scegliere piani mensili, annuali o a vita, e gestire o cancellare gli abbonamenti direttamente nelle impostazioni del tuo account Apple ID.
+              Tutti i dati vengono salvati automaticamente nello storico di ogni partecipante. Potrai rivedere classifiche, punteggi e statistiche quando vuoi.
             </p>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-2">Cosa succede se elimino l’app?</h2>
+            <h2 className="text-xl font-semibold mb-2">Come funziona la classifica globale?</h2>
             <p>
-              Eliminare l’app rimuove tutti i dati salvati localmente. Se sei un utente PRO con backup iCloud attivo, puoi ripristinare i tuoi dati dopo la reinstallazione, a condizione di essere connesso con lo stesso ID Apple e ripristinare da iCloud.
+              Compete con utenti da tutto il mondo! La classifica mostra i migliori mangiatori di sushi per record personale e numero di sessioni vinte.
             </p>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-2">Utilizzate la mia posizione?</h2>
+            <h2 className="text-xl font-semibold mb-2">Posso nascondere il mio profilo dalla classifica?</h2>
             <p>
-              Richiediamo l’accesso alla posizione solo se utilizzi funzionalità come la mappa delle stazioni di ricarica elettrica. I tuoi dati di posizione vengono utilizzati esclusivamente a questo scopo e non vengono memorizzati né condivisi con terze parti.
+              Sì, vai in Impostazioni e disattiva 'Visibile nella Classifica'. Il tuo profilo resterà privato e non apparirà nella classifica globale.
             </p>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-2">Cos’è GarTrackAI e come funziona?</h2>
+            <h2 className="text-xl font-semibold mb-2">Come ottengo SushiCounter Premium?</h2>
             <p>
-              GarTrackAI è il nostro assistente virtuale intelligente che ti aiuta con domande su manutenzione, consumi, sicurezza, normative e tutto ciò che riguarda i veicoli: auto, moto, camion e barche.
-              Può darti consigli su controlli stagionali, documenti da preparare per un viaggio, spiegazioni su spie accese, normative locali o su quali pneumatici o oli sono compatibili.
+              Vai nel tuo Profilo e tocca il pulsante Premium. Scegli il piano che preferisci e sblocca tutte le funzionalità avanzate.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-xl font-semibold mb-2">Come cancello l'abbonamento Premium?</h2>
+            <p>
+              <strong>iOS:</strong> Vai nelle Impostazioni → [Il tuo nome] → Abbonamenti → SushiCounter, e gestisci o cancella l'abbonamento da lì.
             </p>
             <p className="mt-2">
-            Le risposte sono generate da un modello AI basato su OpenAI. I messaggi che invii vengono elaborati in modo sicuro tramite API esterne, ma <strong>non vengono salvati né usati per il training</strong>. L’AI non accede ai tuoi dati personali e le risposte sono solo a scopo informativo.
+              <strong>Android:</strong> Apri Google Play Store → Menu → Abbonamenti → SushiCounter, e gestisci o cancella l'abbonamento.
             </p>
-            <p className="mt-2">
-            GarTrackAI non fornisce consigli su dove acquistare prodotti, non fa pubblicità e non sostituisce l’intervento di un esperto certificato. Per situazioni complesse o urgenti, rivolgiti sempre a un professionista qualificato.
-            </p>
-            </div>
+          </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-2">Ho problemi o ho trovato un bug. Cosa devo fare?</h2>
+            <h2 className="text-xl font-semibold mb-2">Posso cancellare il mio account?</h2>
             <p>
-              Ci dispiace per l’inconveniente! Scrivici a{" "}
-              <a href="mailto:info@gartrack.app" className="text-blue-600 underline">info@gartrack.app</a> con i dettagli del problema, il modello del dispositivo e la versione di iOS. Faremo del nostro meglio per aiutarti e migliorare l’app.
+              Sì. Vai nelle Impostazioni di SushiCounter e tocca "Elimina Account". Questo rimuoverà tutti i tuoi dati in modo permanente e non potrai più accedere al tuo profilo. Questa azione è irreversibile.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-xl font-semibold mb-2">Posso usare SushiCounter offline?</h2>
+            <p>
+              La creazione di una sessione o la partecipazione a una sessione richiede una connessione Internet. L'incremento del punteggio nelle sessioni attive funziona anche offline e si sincronizza automaticamente quando torni online.
+            </p>
+            <p className="mt-2">
+              <strong>Consiglio:</strong> In caso di assenza di segnale Internet in un locale, chiedi l'accesso Wi-Fi al personale del ristorante.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-xl font-semibold mb-2">I miei dati sono al sicuro?</h2>
+            <p>
+              Assolutamente sì! Utilizziamo Firebase Authentication per la gestione degli account e tutte le comunicazioni sono crittografate end-to-end. Non vendiamo né condividiamo i tuoi dati con terze parti. Leggi la nostra{" "}
+              <a href="/it/privacy" className="text-[#fe6f41] underline">Privacy Policy</a> per maggiori dettagli.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-xl font-semibold mb-2">Come segnalo un problema o un bug?</h2>
+            <p>
+              Ci dispiace per l'inconveniente! Vai in Impostazioni → Supporto e inviaci un'email a{" "}
+              <a href="mailto:sushicounterapp@gmail.com" className="text-[#fe6f41] underline">sushicounterapp@gmail.com</a>. Rispondiamo entro 24-48 ore e siamo sempre felici di aiutarti!
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-xl font-semibold mb-2">Posso usare SushiCounter per altri tipi di cibo?</h2>
+            <p>
+              Certo! Anche se è pensata per il sushi, puoi usarla per qualsiasi sfida culinaria: dim sum, tapas, piatti in buffet, hot pot... Divertiti e che vinca il migliore!
             </p>
           </div>
 
@@ -107,34 +142,37 @@ export default function FAQPage() {
             <h2 className="text-xl font-semibold mb-2">Come posso richiedere la cancellazione dei dati o esercitare i miei diritti GDPR?</h2>
             <p>
               Puoi contattarci a{" "}
-              <a href="mailto:info@gartrack.app" className="text-blue-600 underline">info@gartrack.app</a> per richiedere accesso, correzione o cancellazione dei tuoi dati. Rispettiamo tutti i diritti degli utenti previsti dal GDPR e normative correlate.
+              <a href="mailto:sushicounterapp@gmail.com" className="text-[#fe6f41] underline">sushicounterapp@gmail.com</a> per richiedere accesso, correzione o cancellazione dei tuoi dati personali. Rispettiamo tutti i diritti degli utenti previsti dal GDPR e normative correlate. Riceverai risposta entro 30 giorni.
             </p>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-2">Posso trasferire l’abbonamento su un altro dispositivo?</h2>
+            <h2 className="text-xl font-semibold mb-2">Posso trasferire l'abbonamento Premium su un altro dispositivo?</h2>
             <p>
-              Sì. Il tuo abbonamento PRO è legato al tuo ID Apple, quindi puoi ripristinare l’acquisto su qualsiasi dispositivo collegato allo stesso account Apple toccando “Ripristina Acquisto” nelle impostazioni dell’app.
+              <strong>iOS:</strong> Sì, il tuo abbonamento Premium è legato al tuo ID Apple. Accedi con lo stesso Apple ID sul nuovo dispositivo e tocca "Ripristina Acquisto" nelle impostazioni dell'app.
+            </p>
+            <p className="mt-2">
+              <strong>Android:</strong> Sì, l'abbonamento è legato al tuo account Google. Accedi con lo stesso account Google sul nuovo dispositivo e l'abbonamento si sincronizzerà automaticamente.
             </p>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-2">Ogni quanto aggiornate GarTrack?</h2>
+            <h2 className="text-xl font-semibold mb-2">Ogni quanto aggiornate SushiCounter?</h2>
             <p>
-              Sviluppiamo attivamente GarTrack e rilasciamo regolarmente aggiornamenti con nuove funzionalità, miglioramenti e correzioni di bug. Puoi controllare sull’App Store per gli ultimi aggiornamenti.
+              Sviluppiamo attivamente SushiCounter e rilasciamo regolarmente aggiornamenti con nuove funzionalità, miglioramenti delle prestazioni e correzioni di bug. Controlla l'App Store (iOS) o Google Play Store (Android) per gli ultimi aggiornamenti.
             </p>
           </div>
         </section>
 
         <div className="mt-12">
-          <Link href="/" className="inline-block text-sm px-4 py-2 rounded-full border border-neutral-200 hover:bg-neutral-100 transition">
+          <Link href="/it" className="inline-block text-sm px-4 py-2 rounded-full border border-neutral-200 hover:bg-neutral-100 transition">
             ← Torna alla Home
           </Link>
         </div>
       </main>
 
       <footer className="text-xs text-neutral-400 mt-20 text-center">
-        &copy; {new Date().getFullYear()} GarTrack. Tutti i diritti riservati.
+        &copy; {new Date().getFullYear()} SushiCounter. Tutti i diritti riservati.
       </footer>
     </div>
   );
