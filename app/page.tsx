@@ -76,7 +76,7 @@ export default function Home() {
           <div className="mt-16 flex flex-col items-center">
             <p className="text-sm text-neutral-700 mb-4">Download SushiCounter now</p>
             <Link href="https://apps.apple.com/app/sushicounter/YOURAPPID" target="_blank">
-              <Image src="/appstore-badge.svg" alt="Download on the App Store" width={180} height={60} />
+              <Image src="/appstore-badge.webp" alt="Download on the App Store" width={180} height={60} />
             </Link>
             <p className="text-sm text-neutral-700 mt-6 mb-2">Coming soon on Google Play</p>
             <div>
