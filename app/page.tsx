@@ -6,100 +6,100 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>SushiCounter – Competitive Sushi Tracking App</title>
+        <title>SushiCounter – L’app per contare il sushi e sfidare gli amici</title>
         <meta
           name="description"
-          content="SushiCounter helps you track sushi pieces in real-time and compete with friends. Create or join sessions, count every piece, and see who wins the sushi challenge!"
+          content="SushiCounter ti permette di contare i pezzi di sushi in tempo reale e sfidare i tuoi amici. Crea o unisciti a una sessione, conta ogni pezzo e scopri chi è il campione del sushi!"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="min-h-screen flex flex-col items-center justify-between px-6 py-12 sm:py-20 bg-white text-neutral-900 font-mono">
         <main className="w-full max-w-4xl flex flex-col gap-10 text-center items-center">
-          <Image src="/sushicounter-logo.png" alt="SushiCounter logo" width={120} height={120} className="dark:invert" />
+          <Image src="/sushicounter-logo.png" alt="Logo SushiCounter" width={120} height={120} className="dark:invert" />
 
           <h1 className="text-3xl sm:text-5xl font-bold tracking-tight">SushiCounter</h1>
           <p className="text-lg sm:text-xl text-neutral-600 max-w-xl">
-            The ultimate app to track sushi pieces and compete with friends.
-            Count every piece, challenge your crew, and dominate the leaderboard — all in real-time.
+            L’app definitiva per contare i pezzi di sushi e sfidare i tuoi amici.
+            Conta ogni pezzo, affronta il tuo gruppo e domina la classifica — tutto in tempo reale.
           </p>
 
-          {/* Features */}
+          {/* Funzionalità */}
           <section className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-left w-full max-w-2xl mt-4">
             <div className="border border-neutral-200 p-6 rounded-xl shadow-sm">
-              <h2 className="text-xl font-semibold mb-2">Real-Time Sessions</h2>
-              <p className="text-sm text-neutral-600">Create or join sessions with a simple code and track sushi together in real-time.</p>
+              <h2 className="text-xl font-semibold mb-2">Sessioni in Tempo Reale</h2>
+              <p className="text-sm text-neutral-600">Crea o unisciti a una sessione con un semplice codice e conta il sushi insieme in diretta.</p>
             </div>
             <div className="border border-neutral-200 p-6 rounded-xl shadow-sm">
-              <h2 className="text-xl font-semibold mb-2">Piece Counting</h2>
-              <p className="text-sm text-neutral-600">Tap to count every sushi piece you eat. Simple, fast, and accurate tracking.</p>
+              <h2 className="text-xl font-semibold mb-2">Conteggio Pezzi</h2>
+              <p className="text-sm text-neutral-600">Tocca per registrare ogni pezzo che mangi. Veloce, preciso e divertente.</p>
             </div>
             <div className="border border-neutral-200 p-6 rounded-xl shadow-sm">
-              <h2 className="text-xl font-semibold mb-2">Live Rankings</h2>
-              <p className="text-sm text-neutral-600">See who's winning in real-time with automatic leaderboards during your session.</p>
+              <h2 className="text-xl font-semibold mb-2">Classifiche Live</h2>
+              <p className="text-sm text-neutral-600">Scopri chi sta vincendo in tempo reale grazie alle classifiche automatiche durante la sessione.</p>
             </div>
             <div className="border border-neutral-200 p-6 rounded-xl shadow-sm">
-              <h2 className="text-xl font-semibold mb-2">Session History</h2>
-              <p className="text-sm text-neutral-600">Track your wins, total pieces eaten, win rate, and personal best across all sessions.</p>
+              <h2 className="text-xl font-semibold mb-2">Storico Sessioni</h2>
+              <p className="text-sm text-neutral-600">Tieni traccia delle tue vittorie, dei pezzi totali mangiati, del tasso di vittoria e dei tuoi record personali.</p>
             </div>
             <div className="border border-neutral-200 p-6 rounded-xl shadow-sm">
-              <h2 className="text-xl font-semibold mb-2">Global Leaderboard</h2>
-              <p className="text-sm text-neutral-600">Compete with sushi lovers worldwide and climb the rankings of top eaters.</p>
+              <h2 className="text-xl font-semibold mb-2">Classifica Globale</h2>
+              <p className="text-sm text-neutral-600">Sfida altri appassionati di sushi nel mondo e scala la classifica dei migliori mangiatori.</p>
             </div>
             <div className="border border-neutral-200 p-6 rounded-xl shadow-sm">
-              <h2 className="text-xl font-semibold mb-2">Restaurant Details</h2>
+              <h2 className="text-xl font-semibold mb-2">Ristoranti e Dettagli</h2>
               <p className="text-sm text-neutral-600">
-                Save restaurant names and locations for every session to remember where the best battles happened.
+                Salva il nome del ristorante e la posizione di ogni sessione per ricordare dove hai conquistato le tue vittorie.
               </p>
             </div>
           </section>
 
-          {/* Why SushiCounter */}
+          {/* Perché scegliere SushiCounter */}
           <section className="mt-10 max-w-2xl">
-            <h2 className="text-2xl font-semibold mb-4">Why choose SushiCounter?</h2>
+            <h2 className="text-2xl font-semibold mb-4">Perché scegliere SushiCounter?</h2>
             <ul className="list-disc list-inside text-sm text-neutral-600 space-y-2 text-left">
-              <li>Real-time sync with Firebase — everyone sees updates instantly.</li>
-              <li>Simple tap-to-count interface with no learning curve.</li>
-              <li>Track personal stats: total pieces, sessions played, wins, and win rate.</li>
-              <li>Beautiful, clean design that's perfect for any sushi night.</li>
+              <li>Sincronizzazione in tempo reale con Firebase — tutti vedono i risultati istantaneamente.</li>
+              <li>Interfaccia intuitiva: basta un tap per contare i pezzi.</li>
+              <li>Statistiche personali sempre aggiornate: partite giocate, vittorie, record e media.</li>
+              <li>Design pulito e moderno, perfetto per ogni serata all-you-can-eat.</li>
             </ul>
           </section>
 
-          {/* Testimonials */}
+          {/* Testimonianze */}
           <section className="mt-10 max-w-2xl">
-            <h2 className="text-2xl font-semibold mb-4">What users say</h2>
-            <p className="text-sm italic text-neutral-600">"Finally settled who's the real sushi champion in our group!"</p>
-            <p className="text-sm italic text-neutral-600 mt-2">"All-you-can-eat nights have never been this competitive and fun."</p>
+            <h2 className="text-2xl font-semibold mb-4">Cosa dicono gli utenti</h2>
+            <p className="text-sm italic text-neutral-600">"Finalmente sappiamo chi è il vero campione del sushi!"</p>
+            <p className="text-sm italic text-neutral-600 mt-2">"Le cene all-you-can-eat non sono mai state così competitive!"</p>
           </section>
 
           {/* App Store */}
           <div className="mt-16 flex flex-col items-center">
-            <p className="text-sm text-neutral-700 mb-4">Download SushiCounter now</p>
+            <p className="text-sm text-neutral-700 mb-4">Scarica SushiCounter ora</p>
             <Link href="https://apps.apple.com/app/sushicounter/YOURAPPID" target="_blank">
-              <Image src="/appstore-badge.webp" alt="Download on the App Store" width={180} height={60} />
+              <Image src="/appstore-badge.webp" alt="Scarica su App Store" width={180} height={60} />
             </Link>
-            <p className="text-sm text-neutral-700 mt-6 mb-2">Coming soon on Google Play</p>
+            <p className="text-sm text-neutral-700 mt-6 mb-2">Prossimamente su Google Play</p>
             <div>
-              <Image src="/google-play.webp" alt="Google Play logo" width={180} height={60} />
+              <Image src="/google-play.webp" alt="Logo Google Play" width={180} height={60} />
             </div>
           </div>
 
-          {/* Legal & support links */}
+          {/* Link legali e contatti */}
           <div className="mt-12 space-x-6 text-sm">
             <Link href="/privacy" className="text-blue-600 hover:underline">Privacy Policy</Link>
-            <Link href="/terms" className="text-blue-600 hover:underline">Terms & Conditions</Link>
+            <Link href="/terms" className="text-blue-600 hover:underline">Termini e Condizioni</Link>
             <Link href="/faq" className="text-blue-600 hover:underline">FAQ</Link>
-            <a href="mailto:sushicounterapp@gmail.com" className="text-blue-600 hover:underline">Contact Us</a>
+            <a href="mailto:sushicounterapp@gmail.com" className="text-blue-600 hover:underline">Contattaci</a>
           </div>
         </main>
 
         <footer className="text-xs text-neutral-400 mt-12 text-center flex flex-col items-center">
           <div className="mb-4">
             <a href="https://x.com/sushicounter" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center hover:text-neutral-600">
-              <Image src="/x-icon.svg" alt="Follow us on X" width={24} height={24} />
+              <Image src="/x-icon.svg" alt="Seguici su X" width={24} height={24} />
             </a>
           </div>
-          <div>&copy; {new Date().getFullYear()} SushiCounter. All rights reserved.</div>
+          <div>&copy; {new Date().getFullYear()} SushiCounter. Tutti i diritti riservati.</div>
         </footer>
       </div>
     </>
