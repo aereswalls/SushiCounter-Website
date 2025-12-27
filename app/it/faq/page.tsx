@@ -101,71 +101,43 @@ export default function FAQPage() {
           <div>
             <h2 className="text-xl font-semibold mb-2 text-[#fe6f41]">Posso cancellare il mio account?</h2>
             <p>
-              Sì. Vai nelle Impostazioni di SushiCounter e tocca "Elimina Account". Questo rimuoverà tutti i tuoi dati in modo permanente e non potrai più accedere al tuo profilo. Questa azione è irreversibile.
+              Vai nelle Impostazioni di SushiCounter e tocca la voce Elimina Account. Questo rimuoverà tutto il tuo dati e non potrai più accedere al tuo profilo.
             </p>
           </div>
 
           <div>
             <h2 className="text-xl font-semibold mb-2 text-[#fe6f41]">Posso usare SushiCounter offline?</h2>
             <p>
-              La creazione di una sessione o la partecipazione a una sessione richiede una connessione Internet. L'incremento del punteggio nelle sessioni attive funziona anche offline e si sincronizza automaticamente quando torni online.
-            </p>
-            <p className="mt-2">
-              <strong>Consiglio:</strong> In caso di assenza di segnale Internet in un locale, chiedi l'accesso Wi-Fi al personale del ristorante.
+              La creazione di una sessione o la partecipazione ad una sessione richiede una connessione Internet, l'incremento del punteggio nelle sessioni attive funziona anche offline. In caso di assenza di segnale Internet in un locale chiedi l'accesso Wi-Fi al personale del ristorante.
             </p>
           </div>
 
           <div>
             <h2 className="text-xl font-semibold mb-2 text-[#fe6f41]">I miei dati sono al sicuro?</h2>
             <p>
-              Assolutamente sì! Utilizziamo Firebase Authentication per la gestione degli account e tutte le comunicazioni sono crittografate end-to-end. Non vendiamo né condividiamo i tuoi dati con terze parti. Leggi la nostra{" "}
-              <a href="/it/privacy" className="text-[#fe6f41] underline">Privacy Policy</a> per maggiori dettagli.
+              Assolutamente sì! Tutte le comunicazioni sono crittografate. Leggi la{" "}
+              <a href="/privacy" className="text-[#fe6f41] underline font-semibold">Privacy Policy</a> per maggiori dettagli.
             </p>
           </div>
 
           <div>
             <h2 className="text-xl font-semibold mb-2 text-[#fe6f41]">Come segnalo un problema o un bug?</h2>
             <p>
-              Ci dispiace per l'inconveniente! Vai in Impostazioni → Supporto e inviaci un'email a{" "}
-              <a href="mailto:sushicounterapp@gmail.com" className="text-[#fe6f41] underline">sushicounterapp@gmail.com</a>. Rispondiamo entro 24-48 ore e siamo sempre felici di aiutarti!
+              Vai in Impostazioni → Supporto e inviaci un'email a{" "}
+              <a href="mailto:sushicounterapp@gmail.com" className="text-[#fe6f41] underline font-semibold">sushicounterapp@gmail.com</a>. Rispondiamo entro 24-48 ore e siamo sempre felici di aiutarti!
             </p>
           </div>
 
           <div>
             <h2 className="text-xl font-semibold mb-2 text-[#fe6f41]">Posso usare SushiCounter per altri tipi di cibo?</h2>
             <p>
-              Certo! Anche se è pensata per il sushi, puoi usarla per qualsiasi sfida culinaria: dim sum, tapas, piatti in buffet, hot pot... Divertiti e che vinca il migliore!
-            </p>
-          </div>
-
-          <div>
-            <h2 className="text-xl font-semibold mb-2 text-[#fe6f41]">Come posso richiedere la cancellazione dei dati o esercitare i miei diritti GDPR?</h2>
-            <p>
-              Puoi contattarci a{" "}
-              <a href="mailto:sushicounterapp@gmail.com" className="text-[#fe6f41] underline">sushicounterapp@gmail.com</a> per richiedere accesso, correzione o cancellazione dei tuoi dati personali. Rispettiamo tutti i diritti degli utenti previsti dal GDPR e normative correlate. Riceverai risposta entro 30 giorni.
-            </p>
-          </div>
-
-          <div>
-            <h2 className="text-xl font-semibold mb-2 text-[#fe6f41]">Posso trasferire l'abbonamento Premium su un altro dispositivo?</h2>
-            <p>
-              <strong>iOS:</strong> Sì, il tuo abbonamento Premium è legato al tuo ID Apple. Accedi con lo stesso Apple ID sul nuovo dispositivo e tocca "Ripristina Acquisto" nelle impostazioni dell'app.
-            </p>
-            <p className="mt-2">
-              <strong>Android:</strong> Sì, l'abbonamento è legato al tuo account Google. Accedi con lo stesso account Google sul nuovo dispositivo e l'abbonamento si sincronizzerà automaticamente.
-            </p>
-          </div>
-
-          <div>
-            <h2 className="text-xl font-semibold mb-2 text-[#fe6f41]">Ogni quanto aggiornate SushiCounter?</h2>
-            <p>
-              Sviluppiamo attivamente SushiCounter e rilasciamo regolarmente aggiornamenti con nuove funzionalità, miglioramenti delle prestazioni e correzioni di bug. Controlla l'App Store (iOS) o Google Play Store (Android) per gli ultimi aggiornamenti.
+              Certo! Anche se è pensata per il sushi, puoi usarla per qualsiasi sfida culinaria: dim sum, tapas, piatti in buffet... Divertiti!
             </p>
           </div>
         </section>
 
         <div className="mt-12">
-          <Link href="/it" className="inline-block text-sm px-4 py-2 rounded-full border border-neutral-200 hover:bg-neutral-100 transition">
+          <Link href="/" className="inline-block text-sm px-4 py-2 rounded-full border border-neutral-200 hover:bg-neutral-100 transition">
             ← Torna alla Home
           </Link>
         </div>
