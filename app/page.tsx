@@ -58,7 +58,7 @@ export default function Home() {
           <section className="mt-10 max-w-2xl">
             <h2 className="text-2xl font-semibold mb-4">Perché scegliere SushiCounter?</h2>
             <ul className="list-disc list-inside text-sm text-neutral-600 space-y-2 text-left">
-              <li>Sincronizzazione in tempo reale con Firebase — tutti vedono i risultati istantaneamente.</li>
+              <li>Sincronizzazione in tempo reale — tutti vedono i risultati istantaneamente.</li>
               <li>Interfaccia intuitiva: basta un tap per contare i pezzi.</li>
               <li>Statistiche personali sempre aggiornate: partite giocate, vittorie, record e media.</li>
               <li>Design pulito e moderno, perfetto per ogni serata all-you-can-eat.</li>
@@ -74,11 +74,11 @@ export default function Home() {
 
           {/* App Store */}
           <div className="mt-16 flex flex-col items-center">
-            <p className="text-sm text-neutral-700 mb-4">Scarica SushiCounter ora</p>
+            <p className="text-sm text-neutral-700 mb-4">Scarica per iOS</p>
             <Link href="https://apps.apple.com/app/sushicounter/YOURAPPID" target="_blank">
               <Image src="/appstore-badge.webp" alt="Scarica su App Store" width={180} height={60} />
             </Link>
-            <p className="text-sm text-neutral-700 mt-6 mb-2">Prossimamente su Google Play</p>
+            <p className="text-sm text-neutral-700 mt-6 mb-2">Scarica per Android</p>
             <div>
               <Image src="/google-play.webp" alt="Logo Google Play" width={180} height={60} />
             </div>
