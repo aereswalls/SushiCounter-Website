@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GarTrack - Smart Vehicle Management App",
+  title: "SushiCounter - Competitive Sushi Tracking App",
   description:
-    "GarTrack is your smart and intuitive app to manage all your vehicles: cars, motorcycles, boats, trucks and more.",
+    "SushiCounter lets you track sushi pieces in real-time and compete with friends. Create sessions, count every piece, and see who wins the sushi challenge!",
 };
 
 export default function RootLayout({
