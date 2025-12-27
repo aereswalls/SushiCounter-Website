@@ -88,7 +88,7 @@ export default function Home() {
           <div className="mt-12 space-x-6 text-sm">
             <Link href="/privacy" className="text-blue-600 hover:underline">Privacy Policy</Link>
             <Link href="/terms" className="text-blue-600 hover:underline">Termini e Condizioni</Link>
-            <Link href="/faq" className="text-blue-600 hover:underline">FAQ</Link>
+            <Link href="/it/faq" className="text-blue-600 hover:underline">FAQ</Link>
             <a href="mailto:sushicounterapp@gmail.com" className="text-blue-600 hover:underline">Contattaci</a>
           </div>
         </main>
