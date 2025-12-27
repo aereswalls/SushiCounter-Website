@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SushiCounter - Competitive Sushi Tracking App",
+  title: "SushiCounter - App per contare il sushi e sfidare gli amici",
   description:
-    "SushiCounter lets you track sushi pieces in real-time and compete with friends. Create sessions, count every piece, and see who wins the sushi challenge!",
+    "SushiCounter è l'app per contare i pezzi di sushi in tempo reale e sfidare i tuoi amici. Crea o unisciti a una sessione, conta ogni pezzo e scopri chi è il campione del sushi!",
 };
 
 export default function RootLayout({
@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="it">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
