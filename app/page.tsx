@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>SushiCounter – L’app per contare il sushi e sfidare gli amici</title>
+        <title>SushiCounter – L'app per contare il sushi e sfidare gli amici</title>
         <meta
           name="description"
           content="SushiCounter ti permette di contare i pezzi di sushi in tempo reale e sfidare i tuoi amici. Crea o unisciti a una sessione, conta ogni pezzo e scopri chi è il campione del sushi!"
@@ -20,35 +20,35 @@ export default function Home() {
 
           <h1 className="text-3xl sm:text-5xl font-bold tracking-tight">SushiCounter</h1>
           <p className="text-lg sm:text-xl text-neutral-600 max-w-xl">
-            L’app definitiva per contare i pezzi di sushi e sfidare i tuoi amici.
+            L'app definitiva per contare i pezzi di sushi e sfidare i tuoi amici.
             Conta ogni pezzo, affronta il tuo gruppo e domina la classifica — tutto in tempo reale.
           </p>
 
           {/* Funzionalità */}
           <section className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-left w-full max-w-2xl mt-4">
-            <div className="border border-neutral-200 p-6 rounded-xl shadow-sm">
-              <h2 className="text-xl font-semibold mb-2">Sessioni in Tempo Reale</h2>
-              <p className="text-sm text-neutral-600">Crea o unisciti a una sessione con un semplice codice e conta il sushi insieme in diretta.</p>
+            <div className="bg-red-50 border-2 border-red-200 p-6 rounded-xl shadow-sm">
+              <h2 className="text-xl font-semibold mb-2 text-red-900">Sessioni in Tempo Reale</h2>
+              <p className="text-sm text-red-800">Crea o unisciti a una sessione con un semplice codice e conta il sushi insieme in diretta.</p>
             </div>
-            <div className="border border-neutral-200 p-6 rounded-xl shadow-sm">
-              <h2 className="text-xl font-semibold mb-2">Conteggio Pezzi</h2>
-              <p className="text-sm text-neutral-600">Tocca per registrare ogni pezzo che mangi. Veloce, preciso e divertente.</p>
+            <div className="bg-orange-50 border-2 border-orange-200 p-6 rounded-xl shadow-sm">
+              <h2 className="text-xl font-semibold mb-2 text-orange-900">Conteggio Pezzi</h2>
+              <p className="text-sm text-orange-800">Tocca per registrare ogni pezzo che mangi. Veloce, preciso e divertente.</p>
             </div>
-            <div className="border border-neutral-200 p-6 rounded-xl shadow-sm">
-              <h2 className="text-xl font-semibold mb-2">Classifiche Live</h2>
-              <p className="text-sm text-neutral-600">Scopri chi sta vincendo in tempo reale grazie alle classifiche automatiche durante la sessione.</p>
+            <div className="bg-amber-50 border-2 border-amber-200 p-6 rounded-xl shadow-sm">
+              <h2 className="text-xl font-semibold mb-2 text-amber-900">Classifiche Live</h2>
+              <p className="text-sm text-amber-800">Scopri chi sta vincendo in tempo reale grazie alle classifiche automatiche durante la sessione.</p>
             </div>
-            <div className="border border-neutral-200 p-6 rounded-xl shadow-sm">
-              <h2 className="text-xl font-semibold mb-2">Storico Sessioni</h2>
-              <p className="text-sm text-neutral-600">Tieni traccia delle tue vittorie, dei pezzi totali mangiati, del tasso di vittoria e dei tuoi record personali.</p>
+            <div className="bg-emerald-50 border-2 border-emerald-200 p-6 rounded-xl shadow-sm">
+              <h2 className="text-xl font-semibold mb-2 text-emerald-900">Storico Sessioni</h2>
+              <p className="text-sm text-emerald-800">Tieni traccia delle tue vittorie, dei pezzi totali mangiati, del tasso di vittoria e dei tuoi record personali.</p>
             </div>
-            <div className="border border-neutral-200 p-6 rounded-xl shadow-sm">
-              <h2 className="text-xl font-semibold mb-2">Classifica Globale</h2>
-              <p className="text-sm text-neutral-600">Sfida altri appassionati di sushi nel mondo e scala la classifica dei migliori mangiatori.</p>
+            <div className="bg-sky-50 border-2 border-sky-200 p-6 rounded-xl shadow-sm">
+              <h2 className="text-xl font-semibold mb-2 text-sky-900">Classifica Globale</h2>
+              <p className="text-sm text-sky-800">Sfida altri appassionati di sushi nel mondo e scala la classifica dei migliori mangiatori.</p>
             </div>
-            <div className="border border-neutral-200 p-6 rounded-xl shadow-sm">
-              <h2 className="text-xl font-semibold mb-2">Ristoranti e Dettagli</h2>
-              <p className="text-sm text-neutral-600">
+            <div className="bg-purple-50 border-2 border-purple-200 p-6 rounded-xl shadow-sm">
+              <h2 className="text-xl font-semibold mb-2 text-purple-900">Ristoranti e Dettagli</h2>
+              <p className="text-sm text-purple-800">
                 Salva il nome del ristorante e la posizione di ogni sessione per ricordare dove hai conquistato le tue vittorie.
               </p>
             </div>
