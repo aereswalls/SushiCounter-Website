@@ -71,7 +71,7 @@ export default function PrivacyPolicyPage() {
           <li>
             <strong>RevenueCat</strong>: utilizzato per gestire gli abbonamenti
             e gli acquisti in-app. Non vengono raccolte o salvate informazioni
-            di pagamento; tutte le transazioni avvengono tramite Apple.
+            di pagamento; tutte le transazioni avvengono tramite Apple e Google.
           </li>
         </ul>
 
