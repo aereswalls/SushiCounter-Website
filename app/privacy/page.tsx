@@ -15,13 +15,13 @@ export default function PrivacyPolicyPage() {
           Informativa sulla Privacy
         </h1>
         <p className="mb-6 text-sm text-neutral-500">
-          Ultimo aggiornamento: 27 dicembre 2025
+          Ultimo aggiornamento: 31 dicembre 2025
         </p>
 
         <p className="mb-6">
           La presente Informativa sulla Privacy descrive come vengono gestiti i
-          dati personali degli utenti dell’app <strong>SushiCounter</strong>.
-          Utilizzando l’app, accetti le pratiche qui descritte.
+          dati personali degli utenti dell'app <strong>SushiCounter</strong>.
+          Utilizzando l'app, accetti le pratiche qui descritte.
         </p>
 
         <h2 className="text-2xl font-semibold mt-10 mb-2 text-[#fe6f41]">
@@ -31,19 +31,19 @@ export default function PrivacyPolicyPage() {
           SushiCounter non raccoglie né conserva dati personali sensibili. Tutti
           i dati inseriti dagli utenti (come nome, statistiche di gioco o sessioni)
           vengono gestiti tramite <strong>Firebase</strong> in modo sicuro e sono
-          utilizzati esclusivamente per il funzionamento dell’applicazione.
+          utilizzati esclusivamente per il funzionamento dell'applicazione.
         </p>
 
         <h2 className="text-2xl font-semibold mt-10 mb-2 text-[#fe6f41]">
           2. Servizi Utilizzati
         </h2>
         <p className="mb-6">
-          L’app utilizza i seguenti servizi di terze parti per fornire le proprie
+          L'app utilizza i seguenti servizi di terze parti per fornire le proprie
           funzionalità:
         </p>
         <ul className="list-disc pl-6 my-4 space-y-2">
           <li>
-            <strong>Firebase Core</strong>: per la configurazione e l’integrazione
+            <strong>Firebase Core</strong>: per la configurazione e l'integrazione
             dei servizi Firebase.
           </li>
           <li>
@@ -51,16 +51,16 @@ export default function PrivacyPolicyPage() {
             essenziali come sessioni, statistiche e informazioni sulle partite.
           </li>
           <li>
-            <strong>Firebase Authentication</strong>: per consentire l’accesso e la
-            gestione dell’account utente.
+            <strong>Firebase Authentication</strong>: per consentire l'accesso e la
+            gestione dell'account utente.
           </li>
           <li>
             <strong>Accesso con Apple</strong>: utilizzato solo per autenticare
-            l’utente. Non vengono condivise ulteriori informazioni personali.
+            l'utente. Non vengono condivise ulteriori informazioni personali.
           </li>
           <li>
             <strong>Accesso con Google</strong>: utilizzato unicamente per
-            l’autenticazione. Nessun dato aggiuntivo (come nome o email) viene
+            l'autenticazione. Nessun dato aggiuntivo (come nome o email) viene
             usato per scopi di marketing o analisi.
           </li>
           <li>
@@ -81,7 +81,7 @@ export default function PrivacyPolicyPage() {
         <p className="mb-6">
           SushiCounter non utilizza alcun sistema pubblicitario (come Google AdMob)
           e non implementa strumenti di analisi o tracciamento (come Google Analytics
-          o Firebase Analytics). L’app è completamente priva di annunci e non monitora
+          o Firebase Analytics). L'app è completamente priva di annunci e non monitora
           il comportamento degli utenti.
         </p>
 
@@ -93,24 +93,49 @@ export default function PrivacyPolicyPage() {
         </p>
         <ul className="list-disc pl-6 my-4 space-y-2">
           <li>ID utente generato in modo univoco (UID) tramite Firebase</li>
-          <li>Nome utente o alias scelto dall’utente</li>
+          <li>Nome utente o alias scelto dall'utente</li>
           <li>Statistiche di gioco (es. sessioni vinte, pezzi contati, record)</li>
           <li>Dati delle sessioni multigiocatore create o a cui si partecipa</li>
         </ul>
         <p className="mb-6">
           Queste informazioni sono necessarie esclusivamente per permettere il corretto
-          funzionamento dell’app e non vengono utilizzate per altri scopi.
+          funzionamento dell'app e non vengono utilizzate per altri scopi.
         </p>
 
         <h2 className="text-2xl font-semibold mt-10 mb-2 text-[#fe6f41]">
-          5. Eliminazione dei Dati e dell’Account
+          5. Eliminazione dei Dati e dell'Account
         </h2>
-        <p className="mb-6">
+        <p className="mb-4">
           È possibile eliminare in qualsiasi momento il proprio account e tutti i dati
-          associati direttamente dall’app, accedendo a{" "}
-          <strong>Impostazioni &gt; Elimina Account</strong>. Questo comporta la
-          rimozione definitiva dei dati da Firebase (Firestore e Authentication). 
-          Inoltre, disinstallando l’app vengono rimossi eventuali dati locali presenti
+          associati direttamente dall'app, accedendo a{" "}
+          <strong className="text-[#fe6f41]">Profilo &gt; Impostazioni &gt; Elimina Account</strong>.
+          Questo comporta la rimozione definitiva e immediata dei dati da Firebase
+          (Firestore e Authentication).
+        </p>
+        <p className="mb-4">
+          In alternativa, puoi richiedere l'eliminazione del tuo account contattando
+          il nostro supporto via email a{" "}
+          <a
+            href="mailto:sushicounterapp@gmail.com"
+            className="text-blue-600 underline"
+          >
+            sushicounterapp@gmail.com
+          </a>.
+        </p>
+        <div className="bg-neutral-50 border border-neutral-200 rounded-lg p-4 my-6">
+          <p className="text-sm">
+            Per maggiori dettagli sull'eliminazione dei dati e sul processo, consulta
+            la pagina dedicata:{" "}
+            <Link
+              href="/delete-data"
+              className="text-[#fe6f41] hover:underline font-semibold"
+            >
+              Eliminazione Account e Dati
+            </Link>
+          </p>
+        </div>
+        <p className="mb-6">
+          Disinstallando l'app vengono inoltre rimossi eventuali dati locali presenti
           sul dispositivo.
         </p>
 
@@ -119,7 +144,7 @@ export default function PrivacyPolicyPage() {
         </h2>
         <p className="mb-6">
           I dati vengono conservati soltanto per il tempo necessario a fornire i servizi
-          dell’app. Una volta eliminato l’account, i dati vengono definitivamente rimossi
+          dell'app. Una volta eliminato l'account, i dati vengono definitivamente rimossi
           dai server. SushiCounter non conserva copie o backup esterni.
         </p>
 
@@ -143,7 +168,7 @@ export default function PrivacyPolicyPage() {
           9. Minori
         </h2>
         <p className="mb-6">
-          L’app non è destinata a utenti di età inferiore a 13 anni. Non raccogliamo
+          L'app non è destinata a utenti di età inferiore a 13 anni. Non raccogliamo
           intenzionalmente alcun dato personale da minori.
         </p>
 
