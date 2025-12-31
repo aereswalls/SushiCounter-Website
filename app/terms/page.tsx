@@ -7,7 +7,7 @@ export default function TermsPage() {
     <div className="min-h-screen flex flex-col items-center justify-between px-6 py-12 sm:py-20 bg-white text-neutral-900 font-mono">
       <main className="w-full max-w-3xl">
         <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-[#fe6f41]">Termini e Condizioni d'Uso</h1>
-        <p className="text-sm text-neutral-500 mb-10">Ultimo aggiornamento: 27 dicembre 2025</p>
+        <p className="text-sm text-neutral-500 mb-10">Ultimo aggiornamento: 31 dicembre 2025</p>
 
         <section className="space-y-8 text-sm sm:text-base leading-relaxed">
           <div>
@@ -29,7 +29,7 @@ export default function TermsPage() {
             <p>
               Puoi accedere a SushiCounter tramite "Accedi con Apple", "Accedi con Google" oppure registrandoti manualmente con email e password. Questi metodi vengono utilizzati esclusivamente a fini di autenticazione.
               Non raccogliamo né conserviamo credenziali di accesso Apple o Google. Le informazioni personali (come l'email) vengono conservate solo se necessario per l'accesso, come descritto nella nostra{" "}
-              <Link href="/privacy" className="text-blue-600 underline">Informativa sulla Privacy</Link>.
+              <Link href="/privacy-policy" className="text-blue-600 underline">Informativa sulla Privacy</Link>.
               Non utilizziamo i tuoi dati per fini pubblicitari o di marketing.
             </p>
           </div>
@@ -47,7 +47,7 @@ export default function TermsPage() {
             <p>
               I dati vengono gestiti tramite <strong>Firebase</strong> (Firestore, Authentication) e servono esclusivamente per permettere all'app di funzionare correttamente.
               Puoi richiedere l'eliminazione del tuo account e dei tuoi dati in qualsiasi momento come indicato nella{" "}
-              <Link href="/privacy" className="text-blue-600 underline">Privacy Policy</Link>.
+              <Link href="/privacy-policy" className="text-blue-600 underline">Privacy Policy</Link>.
             </p>
           </div>
 
@@ -87,10 +87,26 @@ export default function TermsPage() {
 
           <div>
             <h2 className="text-xl font-semibold mb-2 text-[#fe6f41]">10. Eliminazione dell'Account</h2>
-            <p>
-              Puoi eliminare il tuo account in qualunque momento accedendo alle impostazioni dell'app e selezionando "Elimina Account".
-              Questa azione rimuoverà in modo permanente i tuoi dati dai nostri server Firebase e da ogni altro sistema connesso.
+            <p className="mb-3">
+              Puoi eliminare il tuo account in qualunque momento direttamente dall'app accedendo a{" "}
+              <strong className="text-[#fe6f41]">Profilo &gt; Impostazioni &gt; Elimina Account</strong>.
+              Questa azione rimuoverà in modo permanente e immediato i tuoi dati dai nostri server Firebase e da ogni altro sistema connesso.
             </p>
+            <p className="mb-3">
+              In alternativa, puoi richiedere l'eliminazione del tuo account contattando il nostro supporto via email a{" "}
+              <a href="mailto:sushicounterapp@gmail.com" className="text-blue-600 underline">sushicounterapp@gmail.com</a>.
+            </p>
+            <div className="bg-neutral-50 border border-neutral-200 rounded-lg p-4 mt-4">
+              <p className="text-sm">
+                Per informazioni dettagliate sul processo di eliminazione e sui dati rimossi, consulta la pagina:{" "}
+                <Link
+                  href="/delete-data"
+                  className="text-[#fe6f41] hover:underline font-semibold"
+                >
+                  Eliminazione Account e Dati
+                </Link>
+              </p>
+            </div>
           </div>
 
           <div>
