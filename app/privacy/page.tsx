@@ -71,7 +71,9 @@ export default function PrivacyPolicyPage() {
           <li>
             <strong>Accesso come ospite (anonimo)</strong>: consente di utilizzare
             l'app senza fornire informazioni personali. Viene generato un ID univoco
-            temporaneo che non è associato ad alcun dato identificativo dell'utente.
+            che non è associato ad alcun dato identificativo dell'utente. In
+            questa modalità non saremo in grado di recuperare il proprio ID, per cui in
+            caso di disconnessione o nuova installazione dell'app tutti i dati verranno persi.
           </li>
           <li>
             <strong>RevenueCat</strong>: utilizzato per gestire gli abbonamenti
