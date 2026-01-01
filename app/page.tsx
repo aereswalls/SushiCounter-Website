@@ -167,7 +167,7 @@ export default function Home() {
               <div className="bg-gradient-to-br from-red-50 to-red-100/50 border-2 border-red-200 p-6 rounded-2xl shadow-sm hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
                 <div className="text-3xl mb-3">⚡</div>
                 <h2 className="text-xl font-semibold mb-2 text-red-900">Sessioni in Tempo Reale</h2>
-                <p className="text-sm text-red-800">Crea o unisciti a una sessione con un semplice codice e conta il sushi insieme in diretta.</p>
+                <p className="text-sm text-red-800">Crea o unisciti a una sessione con un semplice codice univoco e conta ogni pezzo di sushi in diretta.</p>
               </div>
               
               <div className="bg-gradient-to-br from-orange-50 to-orange-100/50 border-2 border-orange-200 p-6 rounded-2xl shadow-sm hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
