@@ -39,6 +39,9 @@ export default function Home() {
                 <Link href="/it/faq" className="hover:underline transition-all" style={{ color: '#fe6f40' }}>
                   FAQ
                 </Link>
+                <Link href="/contact" className="hover:underline transition-all" style={{ color: '#fe6f40' }}>
+                  Contatti
+                </Link>
                 <Link href="/privacy" className="hover:underline transition-all" style={{ color: '#fe6f40' }}>
                   Privacy
                 </Link>
@@ -86,6 +89,14 @@ export default function Home() {
                   onClick={() => setMenuOpen(false)}
                 >
                   FAQ
+                </Link>
+                <Link 
+                  href="/contact" 
+                  className="hover:underline py-2 transition-all" 
+                  style={{ color: '#fe6f40' }}
+                  onClick={() => setMenuOpen(false)}
+                >
+                  Contatti
                 </Link>
                 <Link 
                   href="/privacy" 
