@@ -276,9 +276,9 @@ export default function Home() {
               <Link href="/it/faq" className="hover:underline transition-all" style={{ color: '#fe6f40' }}>
                 FAQ
               </Link>
-              <a href="mailto:sushicounterapp@gmail.com" className="hover:underline transition-all" style={{ color: '#fe6f40' }}>
+              <Link href="/contact" className="hover:underline transition-all" style={{ color: '#fe6f40' }}>
                 Contattaci
-              </a>
+              </Link>
             </div>
 
             {/* Social and copyright */}
