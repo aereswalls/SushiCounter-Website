@@ -117,7 +117,7 @@ export default function PrivacyPolicyPage() {
           il nostro supporto via email a{" "}
           <a
             href="mailto:sushicounterapp@gmail.com"
-            className="text-blue-600 underline"
+            className="text-[#fe6f41] underline font-semibold"
           >
             sushicounterapp@gmail.com
           </a>.
@@ -185,14 +185,28 @@ export default function PrivacyPolicyPage() {
           11. Contatti
         </h2>
         <p className="mb-6">
-          Per qualsiasi domanda o richiesta relativa a questa informativa puoi scrivere a:{" "}
-          <a
-            href="mailto:sushicounterapp@gmail.com"
-            className="text-blue-600 underline"
-          >
-            sushicounterapp@gmail.com
-          </a>.
+          Per qualsiasi domanda o richiesta relativa a questa informativa puoi:
         </p>
+        <ul className="list-disc pl-6 my-4 space-y-2 mb-6">
+          <li>
+            Scriverci via email:{" "}
+            <a
+              href="mailto:sushicounterapp@gmail.com"
+              className="text-[#fe6f41] underline font-semibold"
+            >
+              sushicounterapp@gmail.com
+            </a>
+          </li>
+          <li>
+            Compilare il modulo nella nostra{" "}
+            <Link
+              href="/contact"
+              className="text-[#fe6f41] underline font-semibold"
+            >
+              pagina Contatti
+            </Link>
+          </li>
+        </ul>
 
         <div className="mt-12">
           <Link
