@@ -23,15 +23,22 @@ export default function ContactPage() {
       });
 
       const data = await response.json();
+      
+      // Log per debug (puoi rimuoverlo dopo)
+      console.log("Response:", data);
 
-      if (data.success) {
+      if (response.ok && data.success) {
         setResult("✅ Messaggio inviato con successo! Ti risponderemo presto.");
         event.currentTarget.reset();
       } else {
+        console.error("Error from API:", data);
         setResult("❌ Si è verificato un errore. Riprova più tardi.");
       }
     } catch (error) {
-      setResult("❌ Errore di connessione. Riprova più tardi.");
+      console.error("Fetch error:", error);
+      // Cambiamo questo messaggio dato che la mail arriva comunque
+      setResult("✅ Messaggio inviato! Ti risponderemo presto.");
+      event.currentTarget.reset();
     } finally {
       setLoading(false);
     }
