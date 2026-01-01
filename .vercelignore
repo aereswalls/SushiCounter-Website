@@ -1,0 +1,4 @@
+# .vercelignore nella root del progetto
+page.backup.tsx
+backup/
+*.backup.tsx
