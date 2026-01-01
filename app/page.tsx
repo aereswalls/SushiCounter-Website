@@ -242,7 +242,7 @@ export default function Home() {
 
             {/* App Store */}
             <div className="mt-16 flex flex-col items-center bg-white/70 backdrop-blur-sm rounded-2xl p-10 border border-neutral-200 shadow-lg">
-              <h3 className="text-xl font-semibold mb-6" style={{ color: '#fe6f40' }}>Scarica l'app oggi stesso!</h3>
+              <h3 className="text-xl font-semibold mb-6" style={{ color: '#fe6f40' }}>Scarica l'app e sfida subito gli amici!</h3>
               <div className="flex flex-col sm:flex-row gap-6 items-center">
                 <Link href="https://apps.apple.com/app/sushicounter/YOURAPPID" target="_blank" className="transform hover:scale-105 transition-transform duration-300">
                   <Image src="/appstore-badge.webp" alt="Scarica su App Store" width={180} height={60} />
