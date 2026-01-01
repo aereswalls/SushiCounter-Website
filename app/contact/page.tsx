@@ -61,6 +61,7 @@ export default function ContactPage() {
             </h1>
             <p className="text-neutral-600">
               Hai domande o suggerimenti? Scrivici e ti risponderemo entro 24-48 ore!
+Sei un ristorante di sushi o un food creator e vuoi collaborare con noi? Raccontaci la tua idea: siamo sempre aperti a nuove partnership.
             </p>
           </div>
 
