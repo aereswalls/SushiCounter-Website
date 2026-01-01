@@ -125,7 +125,14 @@ export default function Home() {
                 />
               </div>
 
-              <h1 className="text-4xl sm:text-6xl font-bold tracking-tight bg-gradient-to-r from-neutral-900 via-orange-600 to-neutral-900 bg-clip-text text-transparent">
+              <h1 
+                className="text-4xl sm:text-6xl font-bold tracking-tight bg-clip-text text-transparent"
+                style={{ 
+                  backgroundImage: 'linear-gradient(to right, #ff5300, #fe6f40, #ff5300)',
+                  WebkitBackgroundClip: 'text',
+                  WebkitTextFillColor: 'transparent'
+                }}
+              >
                 SushiCounter
               </h1>
               
@@ -139,7 +146,9 @@ export default function Home() {
                 <Link 
                   href="/download"
                   className="px-8 py-4 rounded-full font-semibold text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
-                  style={{ backgroundColor: '#fe6f40' }}
+                  style={{ 
+                    backgroundImage: 'linear-gradient(135deg, #ff5300, #fe6f40)',
+                  }}
                 >
                   Scarica Ora 🍣
                 </Link>
