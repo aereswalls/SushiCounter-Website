@@ -238,6 +238,9 @@ export default function Home() {
               <div className="bg-gradient-to-br from-orange-50 to-white p-6 rounded-2xl border-l-4 shadow-sm" style={{ borderColor: '#fe6f40' }}>
                 <p className="text-sm italic text-neutral-700">"Le cene all-you-can-eat non sono mai state così competitive!"</p>
               </div>
+              <div className="bg-gradient-to-br from-orange-50 to-white p-6 rounded-2xl border-l-4 shadow-sm" style={{ borderColor: '#fe6f40' }}>
+                <p className="text-sm italic text-neutral-700">"Sicuramente è un modo simpatico per passare una serata al sushi con gli amici"</p>
+              </div>
             </section>
 
             {/* App Store */}
