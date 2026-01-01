@@ -69,6 +69,11 @@ export default function PrivacyPolicyPage() {
             memorizziamo le password in chiaro.
           </li>
           <li>
+            <strong>Accesso come ospite (anonimo)</strong>: consente di utilizzare
+            l'app senza fornire informazioni personali. Viene generato un ID univoco
+            temporaneo che non è associato ad alcun dato identificativo dell'utente.
+          </li>
+          <li>
             <strong>RevenueCat</strong>: utilizzato per gestire gli abbonamenti
             e gli acquisti in-app. Non vengono raccolte o salvate informazioni
             di pagamento; tutte le transazioni avvengono tramite Apple e Google.
