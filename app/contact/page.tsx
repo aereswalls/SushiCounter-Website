@@ -23,22 +23,15 @@ export default function ContactPage() {
       });
 
       const data = await response.json();
-      
-      // Log per debug (puoi rimuoverlo dopo)
-      console.log("Response:", data);
 
-      if (response.ok && data.success) {
+      if (data.success) {
         setResult("✅ Messaggio inviato con successo! Ti risponderemo presto.");
         event.currentTarget.reset();
       } else {
-        console.error("Error from API:", data);
         setResult("❌ Si è verificato un errore. Riprova più tardi.");
       }
     } catch (error) {
-      console.error("Fetch error:", error);
-      // Cambiamo questo messaggio dato che la mail arriva comunque
-      setResult("✅ Messaggio inviato! Ti risponderemo presto.");
-      event.currentTarget.reset();
+      setResult("❌ Errore di connessione. Riprova più tardi.");
     } finally {
       setLoading(false);
     }
@@ -76,6 +69,14 @@ export default function ContactPage() {
             onSubmit={onSubmit} 
             className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 border border-neutral-200 shadow-lg space-y-6"
           >
+            {/* Honeypot Field - Hidden from users but visible to bots */}
+            <input 
+              type="checkbox" 
+              name="botcheck" 
+              className="hidden" 
+              style={{ display: 'none' }}
+            />
+
             {/* Nome */}
             <div>
               <label htmlFor="name" className="block text-sm font-semibold mb-2">
